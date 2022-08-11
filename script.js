@@ -7,7 +7,7 @@ function changeCircleColor(color){
 }
 function toggleMenu(){
     var menuToggle = document.querySelector('.toggle');
-    var navigation = document.querySelector('.navigation')
+    var banner = document.querySelector('.banner')
     menuToggle.classList.toggle('active')
-    navigation.classList.toggle('active')
+    banner.classList.toggle('active')
 }
